@@ -39,6 +39,48 @@ nav {
     #footer .navigation-icons .fa-inverse {
       color: #bebfe1; }
 
+.back-to-top {
+  background-color: #aaa8a8;
+  padding: .9em 1em 1em 1em;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  display: none;
+  opacity: 0.5;
+  z-index: 100;
+  bottom: 1em;
+  right: 1em; }
+
+.back-to-top:hover {
+  background-color: #000; }
+
+.back-to-top .fa-chevron-up {
+  font-size: 1.5em;
+  color: #f8f2f2;
+  text-align: center; }
+
+.email-box {
+  background-color: #aaa8a8;
+  padding: .9em 1em;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  right: 1em;
+  display: none;
+  opacity: 0.5;
+  z-index: 100;
+  bottom: 6em;
+  right: 1em; }
+
+.email-box .fa-envelope {
+  font-size: 1.5em;
+  color: #f8f2f2; }
+
+.email-box:hover {
+  background-color: #000; }
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   nav.navbar {
     margin-top: -5rem; } }

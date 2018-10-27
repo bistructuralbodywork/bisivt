@@ -1,0 +1,88 @@
+$blue: rgb(4, 10, 61);
+$header-text: rgb(190, 191, 225);
+$white: rgb(236, 239, 243);
+
+$navbar-dark-color: rgba(208, 209, 235, .75);
+$navbar-dark-hover-color:rgba(190, 191, 225, 1);
+$navbar-dark-active-color: rgb(194, 194, 202);
+
+
+
+.header{
+  background-color: $blue;
+  height: 26rem;
+  border: 0;
+  .logo{
+    .logo-col{
+      background: url("../images/small-logo-image.jpg") no-repeat;
+    }
+  }
+
+  .line-1 {
+    margin-top: 3rem;
+    margin-bottom: -3rem;
+  }
+
+  .line-2 {
+    margin-top: 1rem;
+  }
+
+  h1, p {
+    color: $header-text;
+  }
+
+  .line-3 {
+    font-weight: 200;
+  }
+}
+
+nav{
+  background: $blue;
+}
+
+.home-content {
+  background-color: $white;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#footer{
+  background: $blue;
+  height: 100%;
+  justify-content: center;
+  .navigation-icons{
+    padding-top: 1.5rem;
+    list-style: none;
+    padding-inline-start: 10px;
+    .footer-text{
+      color: $header-text;
+      padding: .5rem;
+    }
+    .phone-digits{
+      margin-top: -2rem;
+    }
+    .fa-inverse{
+      color: $header-text;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  $nav-link-padding-x: 3rem;
+  nav.navbar{
+    margin-top: -5rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  nav.navbar {
+    background: $blue;
+    margin-top: -5rem;
+  } .navbar-collapse{
+    box-shadow: none;
+  }
+}
+
+
+@import "node_modules/bootstrap/scss/bootstrap";

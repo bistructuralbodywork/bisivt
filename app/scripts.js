@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 800) {
+    if ($(this).scrollTop() > 400) {
       $('#back-to-top').fadeIn(200);
     } else {
       $('#back-to-top').fadeOut(200);
@@ -22,7 +22,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 400) {
+    if ($(this).scrollTop() > 200) {
       $('#email-box').fadeIn(200);
     } else {
       $('#email-box').fadeOut(200);

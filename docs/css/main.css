@@ -1,7 +1,8 @@
 .header {
   background-color: #040a3d;
   height: 26rem;
-  border: 0; }
+  border: 0;
+  cursor: pointer; }
   .header .logo .logo-col {
     background: url("../images/small-logo-image.jpg") no-repeat; }
   .header .line-1 {

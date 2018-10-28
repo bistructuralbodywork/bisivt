@@ -55,7 +55,7 @@ nav{
   .navigation-icons{
     padding-top: 1.5rem;
     list-style: none;
-    padding-inline-start: 10px;
+    padding-left: 0;
     .footer-text{
       color: $header-text;
       padding: .5rem;
@@ -71,7 +71,7 @@ nav{
 
 .back-to-top {
   background-color: rgb(170, 168, 168);
-  padding: .9em 1em 1em 1em;
+  padding: 1rem 1.2rem;
   border-radius: 50%;
   cursor: pointer;
   position: fixed;
@@ -96,7 +96,7 @@ nav{
 
 .email-box {
   background-color: rgb(170, 168, 168);
-  padding: .9em 1em;
+  padding: 1.2rem;
   border-radius: 50%;
   cursor: pointer;
   position: fixed;

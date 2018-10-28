@@ -81,6 +81,13 @@ nav {
 .email-box:hover {
   background-color: #000; }
 
+.contact-header {
+  margin-top: 6rem;
+  padding: 5rem; }
+
+.contact-form {
+  margin-bottom: 6rem; }
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   nav.navbar {
     margin-top: -5rem; } }

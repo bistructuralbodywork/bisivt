@@ -22,10 +22,16 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $(window).scroll(function () {
-    if ($(this).scrollTop() > 200) {
+    if ($(this).scrollTop() > 100) {
       $('#email-box').fadeIn(200);
     } else {
       $('#email-box').fadeOut(200);
     }
   });
 });
+
+//Header link to index
+
+document.getElementById('header').onclick = function () {
+  window.location = './index.html';
+};

@@ -101,6 +101,11 @@ p.text-content {
 .contact-form {
   margin-bottom: 6rem; }
 
+.hidden-load {
+  opacity: 0; }
+  .hidden-load .hidden-load.animated {
+    opacity: 1; }
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   nav.navbar {
     margin-top: -5rem; } }

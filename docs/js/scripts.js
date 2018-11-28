@@ -1,3 +1,9 @@
+// Wait for page load
+
+$(window).on('load', function () {
+  $('#wait-for-load').fadeOut(50);
+});
+
 // Back-to-top function
 
 $(document).ready(function () {

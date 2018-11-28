@@ -6,7 +6,9 @@ $navbar-dark-color: rgba(208, 209, 235, .75);
 $navbar-dark-hover-color:rgba(190, 191, 225, 1);
 $navbar-dark-active-color: rgb(194, 194, 202);
 
-
+.main-body-content{
+  margin-top: 4rem;
+}
 
 .header{
   background-color: $blue;
@@ -17,6 +19,11 @@ $navbar-dark-active-color: rgb(194, 194, 202);
     .logo-col{
       background: url("../images/small-logo-image.jpg") no-repeat;
     }
+  }
+
+  .heading-font{
+    font-family: 'Roboto',
+    sans-serif;
   }
 
   .line-1 {
@@ -41,17 +48,26 @@ nav{
   background: $blue;
 }
 
-.home-content {
+.main-body-content {
   background-color: $white;
   justify-content: center;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
 
+p.text-content{
+  font-family: 'Roboto',
+  sans-serif;
+  line-height: 2.5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
 #footer{
   background: $blue;
   height: 100%;
   justify-content: center;
+  bottom: 0px;
   .navigation-icons{
     padding-top: 1.5rem;
     list-style: none;

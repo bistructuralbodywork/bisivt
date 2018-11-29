@@ -8,8 +8,6 @@
   cursor: pointer; }
   .header .logo .logo-col {
     background: url("../images/small-logo-image.jpg") no-repeat; }
-  .header .heading-font {
-    font-family: 'Roboto', sans-serif; }
   .header .line-1 {
     margin-top: 3rem;
     margin-bottom: -3rem; }
@@ -115,7 +113,10 @@ p.text-content {
     background: #040a3d;
     margin-top: -5rem; }
   .navbar-collapse {
-    box-shadow: none; } }
+    box-shadow: none; }
+  .text-content {
+    margin-top: 5rem;
+    margin-bottom: 5rem; } }
 
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)

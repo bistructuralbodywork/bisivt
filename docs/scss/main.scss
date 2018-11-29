@@ -21,11 +21,6 @@ $navbar-dark-active-color: rgb(194, 194, 202);
     }
   }
 
-  .heading-font{
-    font-family: 'Roboto',
-    sans-serif;
-  }
-
   .line-1 {
     margin-top: 3rem;
     margin-bottom: -3rem;
@@ -149,11 +144,18 @@ p.text-content{
   }
 }
 
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   $nav-link-padding-x: 3rem;
   nav.navbar{
     margin-top: -5rem;
   }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1){
+  $nav-link-padding-x: 3rem;
+  nav.navbar {
+    margin-top: -5rem;
 }
 
 @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {

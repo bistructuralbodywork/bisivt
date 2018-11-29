@@ -50,14 +50,6 @@ nav{
   margin-bottom: 5rem;
 }
 
-p.text-content{
-  font-family: 'Roboto',
-  sans-serif;
-  line-height: 2.5rem;
-  font-weight: 400;
-  font-size: 1.5rem;
-}
-
 #footer{
   background: $blue;
   height: 100%;
@@ -144,6 +136,15 @@ p.text-content{
   }
 }
 
+.text-content{
+  font-family: 'Roboto',
+  sans-serif;
+  font-weight: 200;
+  line-height: 2rem;
+  font-size: 1.4rem;
+  color: rgba(59, 52, 52, 0.719);
+}
+
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   $nav-link-padding-x: 3rem;
@@ -156,6 +157,7 @@ p.text-content{
   $nav-link-padding-x: 3rem;
   nav.navbar {
     margin-top: -5rem;
+}
 }
 
 @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {

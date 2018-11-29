@@ -118,7 +118,9 @@ nav {
     background: #040a3d;
     margin-top: -5rem; }
   .navbar-collapse {
-    box-shadow: none; } }
+    box-shadow: none; }
+  .text-content {
+    font-weight: 400; } }
 
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)

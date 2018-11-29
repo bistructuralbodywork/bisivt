@@ -6,7 +6,7 @@ $navbar-dark-color: rgba(208, 209, 235, .75);
 $navbar-dark-hover-color:rgba(190, 191, 225, 1);
 $navbar-dark-active-color: rgb(194, 194, 202);
 
-$p-text-color: rgba(59, 52, 52, 0.719);
+$p-text-color: rgba(17, 16, 16, 0.719);
 $p-text-font-family: 'Roboto',
 sans-serif;
 $p-text-font-weight: 200;
@@ -172,9 +172,6 @@ nav{
     margin-top: -5rem;
   } .navbar-collapse{
     box-shadow: none;
-  }
-  .text-content{
-    color: rgb(14, 13, 13);
   }
 }
 

@@ -138,7 +138,7 @@ nav{
 
 .hidden-load{
   opacity: 0;
-  .hidden-load.animated{
+  .animated{
     opacity: 1;
   }
 }
@@ -178,6 +178,7 @@ nav{
     padding: 2rem;
   }
 }
+
 
 
 @import "node_modules/bootstrap/scss/bootstrap";

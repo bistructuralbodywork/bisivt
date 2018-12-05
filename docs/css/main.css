@@ -31,18 +31,10 @@ nav {
   background: #040a3d;
   height: 100%;
   justify-content: center;
-  bottom: 0px; }
-  #footer .navigation-icons {
-    padding-top: 1.5rem;
-    list-style: none;
-    padding-left: 0; }
-    #footer .navigation-icons .footer-text {
-      color: #bebfe1;
-      padding: .5rem; }
-    #footer .navigation-icons .phone-digits {
-      margin-top: -2rem; }
-    #footer .navigation-icons .fa-inverse {
-      color: #bebfe1; }
+  font-family: "Roboto", sans-serif; }
+  #footer .footer-text {
+    color: #bebfe1;
+    font-weight: 200; }
 
 .back-to-top {
   background-color: #aaa8a8;

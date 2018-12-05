@@ -61,21 +61,10 @@ nav{
   background: $blue;
   height: 100%;
   justify-content: center;
-  bottom: 0px;
-  .navigation-icons{
-    padding-top: 1.5rem;
-    list-style: none;
-    padding-left: 0;
-    .footer-text{
-      color: $header-text;
-      padding: .5rem;
-    }
-    .phone-digits{
-      margin-top: -2rem;
-    }
-    .fa-inverse{
-      color: $header-text;
-    }
+  font-family: $p-text-font-family;
+  .footer-text{
+    color: $header-text;
+    font-weight: 200;
   }
 }
 

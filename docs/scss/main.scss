@@ -172,6 +172,10 @@ nav{
 .text-content{
   font-weight: 400; 
 }
+
+a.dropdown-item a{
+  color: $header-text;
+}
 }
 
 @media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -184,6 +188,10 @@ nav{
   .text-content{
     font-weight: 400;
     padding: 2rem;
+  }
+
+  a.dropdown-item{
+    color: $header-text;
   }
 }
 

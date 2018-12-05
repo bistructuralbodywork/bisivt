@@ -61,10 +61,10 @@ nav{
   background: $blue;
   height: 100%;
   justify-content: center;
-  font-family: $p-text-font-family;
+  font-family: inherit;
   .footer-text{
     color: $header-text;
-    font-weight: 200;
+    font-weight: 100;
   }
 }
 

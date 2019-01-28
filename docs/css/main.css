@@ -101,6 +101,11 @@ nav {
   margin: .5rem;
   background-color: transparent; }
 
+.header-quote {
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  padding-top: 6rem; }
+
 @media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   nav.navbar {
     margin-top: -5rem; } }

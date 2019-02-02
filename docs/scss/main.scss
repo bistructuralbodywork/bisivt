@@ -154,11 +154,12 @@ nav{
   padding-top: 6rem;
 }
 
-a {
-  color: rgba(87, 106, 187, 0.322);
-  hover {
-    color: rgba(25, 37, 90, 0.322);
-  }
+.divider-bar{
+  border-bottom: 2px solid black;
+}
+
+.btn.btn-light{
+  background-color: $header-text;
 }
 
 

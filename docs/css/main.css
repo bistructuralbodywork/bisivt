@@ -106,10 +106,11 @@ nav {
   font-size: 1.4rem;
   padding-top: 6rem; }
 
-a {
-  color: rgba(87, 106, 187, 0.322); }
-  a hover {
-    color: rgba(25, 37, 90, 0.322); }
+.divider-bar {
+  border-bottom: 2px solid black; }
+
+.btn.btn-light {
+  background-color: #bebfe1; }
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   nav.navbar {

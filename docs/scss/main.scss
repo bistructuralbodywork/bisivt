@@ -14,6 +14,7 @@ $p-text-font-weight: 200;
 $p-text-line-height: 2rem;
 $p-text-font-size: 1.4rem;
 
+
 // Custom SCSS
 .main-body-content{
   margin-top: 4rem;
@@ -151,6 +152,13 @@ nav{
   font-family: "Lato", sans-serif;
   font-size: 1.4rem;
   padding-top: 6rem;
+}
+
+a {
+  color: rgba(87, 106, 187, 0.322);
+  hover {
+    color: rgba(25, 37, 90, 0.322);
+  }
 }
 
 

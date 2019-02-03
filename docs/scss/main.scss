@@ -154,6 +154,13 @@ nav{
   padding-top: 6rem;
 }
 
+.about-si-quote{
+  font-family: "Lato",
+  sans-serif;
+  font-size: 1.4rem;
+  padding-top: 6rem;
+}
+
 .divider-bar{
   border-bottom: 2px solid black;
 }
@@ -201,7 +208,7 @@ a.dropdown-item{
   }
 
   .header-quote{
-    visibility: hidden;
+    display: none;
   }
 }
 

@@ -228,14 +228,14 @@ nav{
 }
 
 .back-to-top .fa-chevron-up {
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: rgb(248, 242, 242);
   text-align: center;
 }
 
 .email-box {
   background-color: rgb(170, 168, 168);
-  padding: 1.2rem;
+  padding: 1.1rem 1.2rem;
   border-radius: 50%;
   cursor: pointer;
   position: fixed;
@@ -247,8 +247,8 @@ nav{
   right: 1em;
 }
 
-.email-box .fa-envelope {
-  font-size: 1.5em;
+.email-box .fa-calendar {
+  font-size: 1.5rem;
   color: rgb(248, 242, 242);
 }
 
@@ -302,8 +302,14 @@ nav{
   border-bottom: 2px solid black;
 }
 
-.btn.btn-light{
-  background-color: $header-text;
+.btn{
+  .btn-light {
+    background-color: $header-text;
+  }
+  .btn-outline-light{
+    border-color: $header-text;
+  }
+
 }
 
 
@@ -311,6 +317,9 @@ nav{
   $nav-link-padding-x: 3rem;
   nav.navbar{
     margin-top: -5rem;
+  }
+  .card-body{
+    margin: 0 15rem;
   }
 }
 
@@ -325,6 +334,10 @@ nav{
 
 a.dropdown-item{
   color: $header-text;
+}
+
+.card-body{
+  margin: 0 10rem;
 }
 }
 
@@ -352,8 +365,9 @@ a.dropdown-item{
     display: none;
   }
 
-  .card-body{
-    padding: .25rem;
+  .accordion .card-header .btn-link{
+    white-space: normal;
+
   }
 }
 

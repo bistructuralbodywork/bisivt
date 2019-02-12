@@ -286,7 +286,12 @@ nav {
   .logo-col {
     display: none; }
   .accordion .card-header .btn-link {
-    white-space: normal; } }
+    white-space: normal; }
+  .posture-image {
+    width: 8rem;
+    height: auto;
+    margin: 0;
+    padding: 0; } }
 
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)

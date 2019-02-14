@@ -1,0 +1,391 @@
+// Variables
+$blue: rgb(4, 10, 61);
+$header-text: rgb(190, 191, 225);
+$white: rgb(236, 239, 243);
+
+$navbar-dark-color: rgba(208, 209, 235, .75);
+$navbar-dark-hover-color:rgba(190, 191, 225, 1);
+$navbar-dark-active-color: rgb(194, 194, 202);
+
+$p-text-color: rgba(17, 16, 16, 0.719);
+$p-text-font-family: 'Roboto',
+sans-serif;
+$p-text-font-weight: 200;
+$p-text-line-height: 2rem;
+$p-text-font-size: 1.4rem;
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+// Custom SCSS
+.main-body-content{
+  margin-top: 4rem;
+}
+
+.header{
+  background-color: $blue;
+  height: 26rem;
+  border: 0;
+  cursor: pointer;
+  .logo{
+    height: 20rem;
+    .logo-col{
+      background: url("../images/small-logo-image.jpg") no-repeat;
+    }
+  }
+
+  .line-1 {
+    margin-top: 3rem;
+    margin-bottom: -3rem;
+  }
+
+  .line-2 {
+    margin-top: 1rem;
+  }
+
+  h1, p {
+    color: $header-text;
+  }
+
+  .line-3 {
+    font-weight: 200;
+  }
+}
+
+nav{
+  background: $blue;
+}
+
+.main-body-content {
+  background-color: $white;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#footer{
+  background: $blue;
+  height: 100%;
+  justify-content: center;
+  font-family: inherit;
+  .footer-text{
+    color: $header-text;
+    font-weight: 100;
+  }
+}
+
+.back-to-top {
+  background-color: rgb(170, 168, 168);
+  padding: 1rem 1.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  display: none;
+  opacity: 0.5;
+  z-index: 100;
+  bottom: 1em;
+  right: 1em;
+}
+
+.back-to-top:hover {
+  background-color: #000;
+}
+
+.back-to-top .fa-chevron-up {
+  font-size: 1.8em;
+  color: rgb(248, 242, 242);
+  text-align: center;
+}
+
+.email-box {
+  background-color: rgb(170, 168, 168);
+  padding: 1.1rem 1.2rem;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  right: 1em;
+  display: none;
+  opacity: 0.5;
+  z-index: 100;
+  bottom: 6em;
+  right: 1em;
+}
+
+.email-box .fa-calendar {
+  font-size: 1.5rem;
+  color: rgb(248, 242, 242);
+}
+
+.email-box:hover {
+  background-color: #000;
+}
+
+.contact-header{
+  margin-top: 3rem;
+  padding: 5rem;
+}
+
+.contact-form{
+  margin-bottom: 6rem;
+}
+
+.hidden-load{
+  opacity: 0;
+  .animated{
+    opacity: 1;
+  }
+}
+
+.text-content{
+  font-family: $p-text-font-family;
+  font-weight: $p-text-font-weight;
+  line-height: $p-text-line-height;
+  font-size: $p-text-font-size;
+  color: $p-text-color;
+}
+
+.dropdown-menu.show {
+  margin: .5rem;
+  background-color: transparent;
+}
+
+.header-quote{
+  font-family: "Lato", sans-serif;
+  font-size: 1.4rem;
+  padding-top: 6rem;
+}
+
+.about-si-quote{
+  font-family: "Lato",
+  sans-serif;
+  font-size: 1.4rem;
+  padding-top: 6rem;
+}
+
+.divider-bar{
+  border-bottom: 2px solid black;
+}
+
+.btn{
+  .btn-light {
+    background-color: $header-text;
+  }
+  .btn-outline-light{
+    border-color: $header-text;
+  }
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  $nav-link-padding-x: 3rem;
+  nav.navbar{
+    margin-top: -5rem;
+  }
+  .card-body{
+    margin: 0 15rem;
+  }
+  .si-intro{
+    margin-left: 5rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1199px) and (-webkit-min-device-pixel-ratio: 1){
+  $nav-link-padding-x: 3rem;
+  nav.navbar {
+    margin-top: -5rem;
+}
+.text-content{
+  font-weight: 400; 
+}
+
+a.dropdown-item{
+  color: $header-text;
+}
+
+.card-body{
+  margin: 0 10rem;
+}
+
+.si-intro {
+  margin-left: 5rem;
+}
+}
+
+@media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  nav.navbar {
+    background: $blue;
+    margin-top: -5rem;
+  } .navbar-collapse{
+    box-shadow: none;
+  }
+  .text-content{
+    font-weight: 400;
+    padding: 2rem;
+  }
+
+  a.dropdown-item{
+    color: $header-text;
+  }
+
+  .header-quote{
+    display: none;
+  }
+
+  .logo-col{
+    display: none;
+  }
+
+  .accordion .card-header .btn-link{
+    white-space: normal;
+  }
+
+  .posture-image{
+    width: 8rem;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+

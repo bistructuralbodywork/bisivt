@@ -1,0 +1,31 @@
+{
+  "name": "bobby_ibarra",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bootstrap": "^4.1.3",
+    "sass": "^1.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bistructuralbodywork/bisivt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bistructuralbodywork/bisivt/issues"
+  },
+  "homepage": "https://github.com/bistructuralbodywork/bisivt#readme",
+  "description": ""
+}
